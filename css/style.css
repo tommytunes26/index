@@ -1,0 +1,91 @@
+html, body {
+    position: absolute;
+    width: 100%;
+    top: 0; left: 0; right: 0; bottom: 0; background-color: #6dabe3;    
+    background: -webkit-linear-gradient(#c5d5e3, #6d6e6f);
+    background: -o-linear-gradient(#c5d5e3, #6d6e6f);
+    background: -moz-linear-gradient(#c5d5e3, #6d6e6f);
+    background: linear-gradient(#c5d5e3, #6d6e6f);
+}
+
+/*Navbar------------------------*/
+
+nav {
+    width: 100%;
+}
+
+#navbar-retract {
+    margin-top: 25px;
+}
+
+#logo {
+    width: 130px;
+    background-image: url('../images/logo.png');
+    background-size: contain;
+}
+
+#logo:hover {
+    background-image: url('../images/logo-hover.png');
+}
+
+.logo {
+    position: absolute;
+    top: -7px; left: 0; right: 0;
+    width: 130px;
+    height: 150px;
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 0;    
+    box-shadow: 0 0 10px #111;
+}
+
+.indicator {
+    position: absolute;
+    bottom: 0;
+}
+
+.right {
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.under-navbar {
+    background-color: #0090d0;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    min-height: 70px;
+    border-radius: 0;
+    box-shadow: 0 0 10px #111;
+    transition: margin-top 1s;
+    -webkit-transition: margin-top 1s;    
+}
+
+.under-navbar:hover {
+    margin-top: 30px;    
+}
+
+#navbar{
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.link-bar {
+    float: right;
+}
+
+.nav > li > a {
+    height: 30px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.nav > li > a:hover {
+    background-color: #0076aa;
+    border-radius: 5px;
+}
+
+
